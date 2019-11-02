@@ -29,5 +29,8 @@ int main(int argc, char *argv[])
 	std::cout << "SumOfSquares: " << sosq->getResult() << std::endl;
 	std::cout << " RootsSummed: " << rtsm->getResult() << std::endl;
 
+	delete rtsm;
+	delete sosq;
+
 	return 0;
 }
